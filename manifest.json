@@ -1,0 +1,12 @@
+{
+  "name": "push tester",
+  "short_name": "pushtest",
+  "icons": [{
+    "src": "/image.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }],
+  "start_url": "https://hogehoge.jp",
+  "display": "standalone",
+  "gcm_sender_id": "1160",
+}
