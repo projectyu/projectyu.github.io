@@ -1,12 +1,14 @@
 {
-  "name": "push tester",
-  "short_name": "pushtest",
+  "name": "Push Demo",
+  "short_name": "Push Demo",
   "icons": [{
-    "src": "/image.png",
-    "sizes": "256x256",
-    "type": "image/png"
-  }],
-  "start_url": "https://hogehoge.jp",
+        "src": "images/icon-192x192.png",
+        "sizes": "192x192"
+      }],
+  "start_url": "./index.html?homescreen=1",
   "display": "standalone",
-  "gcm_sender_id": "1160",
+  "gcm_sender_id": "363117272193",
+  
+  "//": "gcm_user_visible_only is only needed until Chrome 44 is in stable ",
+  "gcm_user_visible_only": true
 }
